@@ -63,7 +63,7 @@ public enum Blocks {
         // Register Block in Game Registry
         GameRegistry.registerBlock(block.setCreativeTab(creativeTabs).setUnlocalizedName(internalName), itemBlockClass, internalName);
 
-        // If bock has Render Info, Register Renderer
+        // If block has Render Info, Register Renderer
         if (block instanceof IBlockRenderer) {
             ((IBlockRenderer) block).registerBlockRenderer();
         }
