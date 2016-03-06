@@ -23,7 +23,7 @@ public class SkeletonMod {
         proxy.registerItems();
         //Register Blocks
         proxy.registerBlocks();
-        //Register Fule
+        //Register Fuel
         proxy.registerFuel();
     }
 
